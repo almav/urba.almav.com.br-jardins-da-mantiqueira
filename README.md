@@ -36,4 +36,4 @@ Incluir a API do Almav Mapas no seu arquivo HTML:
 
 Demonstração do Mapa Interativo: https://urba.almav.com.br/jardins-da-mantiqueira
 
-![alt text](https://urba.maps.almav.com/maps/assets/Ma63ae86-1c36-42d4-bcfc-a953ddbfb546/thumb01.jpg)
+![alt text](https://maps.almav.com/maps/assets/Ma63ae86-1c36-42d4-bcfc-a953ddbfb546/thumb01.jpg)
