@@ -20,14 +20,16 @@ function initMap() {
   });
 }
 ```
+O código utiliza a função document.getElementById("map") para obter um elemento HTML com o ID "map". Esse elemento é uma div vazia onde o mapa será exibido. Além disso, é fornecida ao objeto Map uma propriedade "settings-id" com o valor 1, que é o valor padrão de configuração do mapa.
 
 ## 3. Script da API
 
-Incluir a API do Almav Mapas no seu arquivo HTML:
+Incluir API do almav Mapas no seu arquivo HTML:
 ```javascript
 <script src="https://urba.maps.almav.com/maps/api/js?key=<chave>&callback=<retorno>" async></script>
 ```
-`utilize a chave:` **Ma63ae86-1c36-42d4-bcfc-a953ddbfb546**
+`<chave>:` **Ma63ae86-1c36-42d4-bcfc-a953ddbfb546**
+`<retorno>:` Quando você inclui o parâmetro obtigatório callback na URL do script, como no exemplo fornecido, o valor do parâmetro deve ser o nome de uma função que será chamada pelo script do almav Mapas API. Nesse caso, a função de callback é chamada initMap.
 
 > ---
 > IMPORTANTE
