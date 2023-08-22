@@ -29,7 +29,7 @@ Incluir API do almav Mapas no seu arquivo HTML:
 <script src="https://urba.maps.almav.com/maps/api/js?key=<chave>&callback=<retorno>" async></script>
 ```
 `<chave>:` **Ma63ae86-1c36-42d4-bcfc-a953ddbfb546**
-`<retorno>:` Quando você inclui o parâmetro obtigatório callback na URL do script, como no exemplo fornecido, o valor do parâmetro deve ser o nome de uma função que será chamada pelo script do almav Mapas API. Nesse caso, a função de callback é chamada initMap.
+`<retorno>:` Quando você inclui o parâmetro obrigatório callback na URL do script, como no exemplo fornecido, o valor do parâmetro deve ser o nome de uma função que será chamada pelo script do almav Mapas API. Nesse caso, a função de callback é chamada initMap.
 
 > ---
 > IMPORTANTE
